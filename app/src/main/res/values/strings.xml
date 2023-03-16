@@ -11,4 +11,11 @@
     <string name="search_fragment">search fragment</string>
     <string name="hello">Hello!</string>
     <string name="account">Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_here">Register here</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="add_logo">Add Logo</string>
+    <string name="logo">Logo</string>
 </resources>
