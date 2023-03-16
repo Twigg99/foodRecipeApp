@@ -9,4 +9,6 @@
     <string name="save_fragment">save fragment</string>
     <string name="home_fragment">home fragment</string>
     <string name="search_fragment">search fragment</string>
+    <string name="hello">Hello!</string>
+    <string name="account">Account</string>
 </resources>
