@@ -34,7 +34,7 @@ class SplashScreenActivity : AppCompatActivity() {
         handler.post {
             Thread.sleep(3000)
             //implicit intent
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }

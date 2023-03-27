@@ -24,4 +24,7 @@
     <string name="phone_number">Phone number</string>
     <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here!</string>
     <string name="register_account">Register Account</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_your_email_address_to_retrieve_your_password">Please enter your email address to retrieve your password</string>
+    <string name="recover_your_password">Recover your password!</string>
 </resources>
