@@ -61,7 +61,7 @@ class RegisterActivity : AppCompatActivity() {
 
                                 Snackbar.make(binding.root, "User added", Snackbar.LENGTH_LONG)
                                     .show()
-                                val intent = Intent(this, MainActivity::class.java)
+                                val intent = Intent(this, LoginActivity::class.java)
                                 startActivity(intent)
                             }
                             .addOnFailureListener { exception ->

@@ -1,5 +1,6 @@
 package com.example.foodrecipeapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -30,6 +31,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
 
                         if (task.isSuccessful) {
                             Snackbar.make(binding.root, "Email sent", Snackbar.LENGTH_LONG).show()
+                            val intent = Intent(this, LoginActivity::class.java)
                         } else {
                             Log.d("ForgotPasswordActivity", "Error with resetting password")
 
